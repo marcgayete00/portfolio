@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Protecting SCADA systems against cyber threats</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles/styles.css">
+<link rel="icon" type="image/x-icon" href="../img/favicon.png">
+
+</head>
+    <body>
+    <header>
+      <div class="wrap">
+        <a></a>
+        <nav><a href="../index.html">Home</a><a href="#about">About</a><a href="#timeline">Timeline</a><a href="#contact">Contact</a><button id="theme" aria-label="Toggle theme">◐</button></nav>
+      </div>
+    </header>
+
+    <main id="top">
+        <section id="about"><div class="wrap">
+        <h2>Protecting SCADA systems against cyber threats</h2>
+        <p>This project demonstrates how an industrial SCADA system can be designed, monitored, and assessed from a cybersecurity perspective. A complete laboratory environment was developed to simulate an industrial production line using PLCs, Modbus/TCP protocols, an HMI system, and a virtualized network infrastructure.</p>
+        <p>Once the environment was deployed, a security assessment was conducted to identify real-world vulnerabilities in industrial communications. The investigation demonstrated how an attacker could manipulate an automated process by exploiting weaknesses in Modbus/TCP, a widely used OT protocol that lacks native authentication and encryption mechanisms.</p>
+        <p>The following practical demonstration showcases the normal operation of the SCADA system, which classifies materials based on their color: <span style="color:#7bbc0f;">GREEN</span> pieces are directed to the left, while <span style="color:#01a1fd;">BLUE</span> pieces are directed to the right.</p>
+        <p>By exploiting the lack of encryption in Modbus, an attacker can analyze the communication between SCADA components and develop a Python script to send crafted requests. This allows the attacker to manipulate the system's behavior, causing the material classifier to malfunction.</p>
+        <div class="video-container">
+            <div class="video-container">
+                <iframe
+                    src="https://www.youtube.com/embed/zIK4gRbXXbU"
+                    title="Project demo video"
+                    loading="lazy"
+                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div> 
+        <p>Would you like to know how the system was secured?  </p>
+        <p>Are you willing to check the full documentation of the project?</p>
+        <p>Do you have any questions about it?</p>
+        <h3>Feel Free to contact me at any time</h3>
+
+        </div></section>
+
+        <section id="contact" class="contact"><div class="wrap">
+          <h2>Let’s talk security</h2>
+          <p class="sub">Open to pentesting and red team opportunities. <b>Available to relocation</b></p>
+          <div class="cta" style="justify-content:center"><a class="btn linkedin" href="https://www.linkedin.com/in/marc-gayete-8b42a71b8/">Linkedin</a><a class="btn" href="https://github.com/marcgayete00">GitHub</a><a class="btn main" href="mailto:m.gayetepujol@gmail.com">Send an email</a></div>
+        </div></section>
+    </main>
+    <footer>© 2026 Marc Gayete · All rights reserved.</footer>
+
+    <script>
+    (function(){
+    var r=document.documentElement;
+    try{var s=localStorage.getItem('theme');if(s)r.setAttribute('data-theme',s)}catch(e){}
+    document.getElementById('theme').addEventListener('click',function(){
+        var dark=r.getAttribute('data-theme')?r.getAttribute('data-theme')==='dark':window.matchMedia('(prefers-color-scheme: dark)').matches;
+        var n=dark?'light':'dark';r.setAttribute('data-theme',n);
+        try{localStorage.setItem('theme',n)}catch(e){}
+    });
+    
+    })();
+
+    </script>
+    </body>
+</html>

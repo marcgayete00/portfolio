@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Marc Gayete · Pentester</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/styles.css">
+ <link rel="icon" type="image/x-icon" href="img/favicon.png">
+
+</head>
+    <body>
+    <header>
+      <div class="wrap">
+        <a></a>
+        <nav><a href="#about">About</a><a href="#timeline">Timeline</a><a href="#contact">Contact</a><button id="theme" aria-label="Toggle theme">◐</button></nav>
+      </div>
+    </header>
+
+    <main id="top">
+        <div class="hero"><div class="wrap">
+        <div>
+            <h1>Finding the cracks before<br> <em>someone else does.</em></h1>
+            <p class="lead">Pentester focused on internal infrastructure and Active Directory, with a background in vulnerability management</p>
+            <div class="cta"><a class="btn main" href="#timeline">Check my timeline</a><a class="btn" href="#contact">Get in touch</a></div>
+        </div>
+        <div class="term" aria-hidden="true">
+            <div class="bar"><i></i><i></i><i></i></div>
+            <pre id="t"></pre>
+        </div>
+        </div></div>
+
+        <section id="about"><div class="wrap">
+        <h2>What I do</h2>
+        <p class="sub">From finding exposure to proving impact and getting it fixed.</p>
+        <div class="cards">
+            <div class="card"><h3>Penetration testing</h3><p>Internal and web assessments, from recon to post-exploitation, with clear and actionable reporting.</p><div class="tags"><span><a href="#techstack">Check the techonlogic stack</a></span></div></div>
+            <div class="card"><h3>Vulnerability management</h3><p>Identification, prioritization and remediation tracking across enterprise environments.</p><div class="tags"><span>Nessus</span><span>OpenVAS</span></div></div>
+        </div>
+        </div></section>
+
+        <section id="timeline"><div class="wrap">
+        <h2>Timeline</h2>
+        <p class="sub">Here is a little bit of my background, my education the places i worked and the certifications i own. </p>
+        <div class="tl">
+            <div class="it"><div class="when">2020 – 2021</div><h3>SOC analyst (L1)</h3><p>Operating and managing multiple SIEM platforms to monitor security events, analyze alerts, and escalate incidents in accordance with established procedures. Actively involved in incident investigation and documentation, producing clear and structured reports to support incident response, threat analysis, and continuous improvement of security operations.</p><div class="tags-job"><span>Job</span></div></div>
+            <div class="it"><div class="when">2021 – 2024</div><h3>Bachelor's degree in Computer Science</h3><div class="tags-education"><span>Education</span></div></div>
+            <div class="it"><div class="when">2024 – 2025</div><h3>Master's in Cybersecurity</h3><p>Master’s program combining offensive and defensive security. Coursework covered cyber intelligence and threat analysis, reverse engineering of software and malware, ethical hacking and penetration testing, SOC operations, and incident response. This blend of attacker and defender perspectives gives me a solid understanding of how threats are built, detected and contained.</p><div class="tags-education"><span>Education</span></div></div>
+            <div class="it">
+              <div class="when">2026</div>
+              <h3>CPTS (Certified Penetration Testing Specialist)</h3>
+              <div class="timeline-description">
+              <p>Hack The Box’s Certified Penetration Testing Specialist. A multi-day, fully practical exam in a realistic enterprise network, ending with a professional-grade pentest report. No multiple choice, no shortcuts.</p>
+              <img src="img/logo/cpts.png">
+              </div>
+              <div class="tags-certification"><span>Certification</span>
+              </div>
+            </div>
+            <div class="it"><div class="when">2024 – <a class="active">Current</a></div><h3>Vulnerability assessor</h3><p>Responsible for vulnerability management and security operations across critical systems at a major international airport. Duties include monitoring and configuring security tools (AV, EDR, SIEM, DLP), coordinating security audits (Nessus, ISO 27001, ethical hacking), and analyzing and responding to suspicious security events. Also oversee change management, patching cycles via SCCM, backup compliance, and disaster recovery testing and planning, while supporting the day-to-day maintenance of data center infrastructure and the rollout of new projects and services.</p><div class="tags-job"><span>Job</span></div></div>
+            <div class="it next">
+              <div class="when">Planned 21/12/2026</div>
+              <h3>OSCP<span class="badge">Next</span></h3>
+              <div class="timeline-description">
+                <p>Offensive Security Certified Professional. A 24-hour practical exam where you compromise machines under pressure, then document everything in a professional report. Next on my roadmap.</p>
+                <img src="img//logo/oscp.png">
+              </div>
+            </div>
+            <div class="it next"><div class="when">Not Planned Yet</div><h3>Auto Deployable labs Project<span class="badge">Next</span></h3><p></p></div>
+        </div>
+        </div></section>
+
+        <section id="projects"><div class="wrap">
+  <h2>Projects</h2>
+  <p class="sub">Proof of work, not just certificates.</p>
+
+  <div class="proj">
+
+    <details class="pj" open>
+      <summary>
+        <span class="ttl">
+          <span class="kind">Knowledge base · Open source</span>
+          <h3>H4ckV4ult</h3>
+        </span>
+        <span class="chev" aria-hidden="true"></span>
+      </summary>
+      <div class="body">
+        <div class="shot"><img src="img/showcase/h4ckv4ult.png" loading="lazy"></div>
+        <div class="info">
+          <p>My open knowledge base of hacking notes: practical guides on ethical hacking, pentesting techniques and defensive security, written from what I learn in labs and certifications. Free to read, built to be useful.</p>
+          <div class="tags">
+          <span>OWASP TOP 10</span><span>Active Directory</span><span>Privilege Escalation</span></div>
+            <a class="btn main" href="#">Preview <svg class="size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6"></path><path d="M11 13l9 -9"></path><path d="M15 4h5v5"></path></svg></a>
+          </div>
+      </div>
+    </details>
+
+    <details class="pj">
+      <summary>
+        <span class="ttl">
+          <span class="kind">Research · Critical infrastructure</span>
+          <h3>Protecting SCADA systems against cyber threats</h3>
+        </span>
+        <span class="chev" aria-hidden="true"></span>
+      </summary>
+      <div class="body">
+        <div class="shot"><img src="img/showcase/scada.png" alt="Project screenshot" loading="lazy"></div>
+        <div class="info">
+          <p>SCADA systems run power grids and water treatment plants, and attackers know it. A deep dive into how they work, how they evolved and how they get breached, from architecture and protocols to real-world attacks like Stuxnet.</p>
+          <div class="tags"><span>SCADA</span><span>Modbus</span><span>FactoryIO</span></div>
+          <a class="btn main" href="projects/scada.html">View details</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="pj">
+      <summary>
+        <span class="ttl">
+          <span class="kind">Research · Forensics</span>
+          <h3>LOST Project: FORENSIC</h3>
+        </span>
+        <span class="chev" aria-hidden="true"></span>
+      </summary>
+      <div class="body">
+        <div class="shot"><img src="img/showcase/forensic.png" alt="Project screenshot" loading="lazy"></div>
+        <div class="info">
+          <p>Every cyberattack leaves traces, and someone has to know how to read them. My Final Degree Project adds digital forensics to LOST, the security training platform built by La Salle and ISECOM, covering procedures, tools, legislation and hands-on scenarios.</p>
+          <div class="tags"><span>Autopsy</span><span>Volatility</span><span>DPAPI</span></div>
+          <a class="btn main" href="projects/forensic.html">View details</a>
+        </div>
+      </div>
+    </details>
+  </div>
+</div></section>
+
+        
+
+<section id="techstack">
+  <div class="wrap">
+    <h2>Tech Stack</h2>
+    <p class="sub">
+      Technologies, tools and frameworks I use across offensive security,
+      vulnerability management, infrastructure and cloud environments.
+    </p>
+
+    <div class="stack-grid">
+
+      <article class="stack-card">
+        <div class="stack-header">
+          <span class="stack-index">01</span>
+          <h3>Offensive Security</h3>
+        </div>
+        <div class="stack-tags">
+          <span>Burp Suite</span>
+          <span>Caido</span>
+          <span>OWASP Top 10</span>
+          <span>Nmap</span>
+          <span>Metasploit</span>
+          <span>BloodHound</span>
+          <span>Impacket</span>
+          <span>Certipy</span>
+          <span>NetExec</span>
+          <span>Ligolo-ng</span>
+          <span>Feroxbuster</span>
+          <span>Responder</span>
+        </div>
+        <p class="stack-note">And so many other tools from the Kali Linux ecosystem.</p>
+      </article>
+
+      <article class="stack-card">
+        <div class="stack-header">
+          <span class="stack-index">02</span>
+          <h3>Vulnerability Assessment</h3>
+        </div>
+        <div class="stack-tags">
+          <span>Nessus</span>
+          <span>OpenVAS</span>
+          <span>CrowdStrike Falcon Spotlight</span>
+        </div>
+      </article>
+
+      <article class="stack-card">
+        <div class="stack-header">
+          <span class="stack-index">03</span>
+          <h3>Infrastructure & Virtualization</h3>
+        </div>
+        <div class="stack-tags">
+          <span>Windows Server</span>
+          <span>Linux</span>
+          <span>Active Directory</span>
+          <span>VMware vSphere</span>
+          <span>Docker</span>
+          <span>Kubernetes</span>
+          <span>pfSense</span>
+        </div>
+      </article>
+
+      <article class="stack-card">
+        <div class="stack-header">
+          <span class="stack-index">04</span>
+          <h3>Cloud Security</h3>
+        </div>
+        <div class="stack-tags">
+          <span>AWS</span>
+        </div>
+      </article>
+
+      <article class="stack-card">
+        <div class="stack-header">
+          <span class="stack-index">05</span>
+          <h3>Security Monitoring & Log Analysis</h3>
+        </div>
+        <div class="stack-tags">
+          <span>Splunk</span>
+          <span>Kibana</span>
+        </div>
+      </article>
+
+      <article class="stack-card">
+        <div class="stack-header">
+          <span class="stack-index">06</span>
+          <h3>Scripting & Automation</h3>
+        </div>
+        <div class="stack-tags">
+          <span>Python</span>
+          <span>PowerShell</span>
+          <span>Bash</span>
+          <span>Git</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+
+        <section id="contact" class="contact"><div class="wrap">
+          <h2>Let’s talk security</h2>
+          <p class="sub">Open to pentesting and red team opportunities. <b>Available to relocation</b></p>
+          <div class="cta" style="justify-content:center"><a class="btn linkedin" href="mailto:m.gayetepujol@gmail.com">Linkedin</a><a class="btn" href="https://github.com/marcgayete00">GitHub</a><a class="btn main" href="mailto:m.gayetepujol@gmail.com">Send an email</a></div>
+        </div></section>
+    </main>
+    <footer>© 2026 Marc Gayete · All rights reserved.</footer>
+
+    <script>
+    (function(){
+    var r=document.documentElement;
+    try{var s=localStorage.getItem('theme');if(s)r.setAttribute('data-theme',s)}catch(e){}
+    document.getElementById('theme').addEventListener('click',function(){
+        var dark=r.getAttribute('data-theme')?r.getAttribute('data-theme')==='dark':window.matchMedia('(prefers-color-scheme: dark)').matches;
+        var n=dark?'light':'dark';r.setAttribute('data-theme',n);
+        try{localStorage.setItem('theme',n)}catch(e){}
+    });
+    var lines=['<span class="p">$</span> whoami','Marc, Gayete','','<span class="p">$</span> cat skills.txt','Internal_Pentest     Web_Apps     API_testing', 'Active_Directory     Vuln_Management','','<span class="p">$</span> status','<span class="p">open to new challenges</span> <span class="cur"></span>'];
+    var el=document.getElementById('t'),i=0;
+    if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){el.innerHTML=lines.join('\n')}
+    else{(function n(){if(i>=lines.length)return;el.innerHTML=lines.slice(0,++i).join('\n');setTimeout(n,i%4===1?520:260)})()}
+    var items=document.querySelectorAll('.it');
+    if('IntersectionObserver' in window){
+        var o=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');o.unobserve(e.target)}})},{threshold:.2});
+        items.forEach(function(x){o.observe(x)});
+    }else{items.forEach(function(x){x.classList.add('on')})}
+    })();
+
+    var pj=document.querySelectorAll('.pj');
+    pj.forEach(function(d){d.addEventListener('toggle',function(){
+    if(d.open)pj.forEach(function(o){if(o!==d)o.open=false});
+    });});
+    
+    </script>
+    </body>
+</html>
